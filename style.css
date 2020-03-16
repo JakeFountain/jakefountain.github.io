@@ -1,9 +1,12 @@
 /*style.css*/
 h1{
-	color: blue;
-	background-color: yellow;
-	border: 1px solid black;
-	align-items: center;
+	color: grey;
+	align-self: center;
+	margin: auto;
+	width: 60%;
+
+	/*border: 3px solid #73AD21;*/
+	padding: 10px;
 }
 
 p{
