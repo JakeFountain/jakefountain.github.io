@@ -1,0 +1,1 @@
+{"version":3,"sources":["style.css"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA","file":"style.e308ff8e.css","sourceRoot":"..","sourcesContent":["/*style.css*/\nh1{\n\tcolor: grey;\n\talign-self: center;\n\tmargin: auto;\n\twidth: 60%;\n\n\t/*border: 3px solid #73AD21;*/\n\tpadding: 10px;\n}\n\np{\n\tcolor:red;\n}"]}
