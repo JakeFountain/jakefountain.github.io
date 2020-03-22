@@ -1,9 +1,9 @@
 // index.js
-import 'bootstrap/dist/css/bootstrap.css'
-import * as tf from '@tensorflow/tfjs'
-import * as tfvis from '@tensorflow/tfjs-vis'
-import $ from 'jquery'
-require('babel-polyfill')
+// import 'bootstrap/dist/css/bootstrap.css'
+// import * as tf from '@tensorflow/tfjs'
+// import * as tfvis from '@tensorflow/tfjs-vis'
+// import $ from 'jquery'
+// require('babel-polyfill')
 
 import {MnistData} from './mnist_data'
 import * as util from './mnist_utils'
