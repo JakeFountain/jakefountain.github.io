@@ -5,9 +5,9 @@
 // import $ from 'jquery'
 // require('babel-polyfill')
 
-import {MnistData} from './mnist_data'
-import * as util from './mnist_utils'
-import {initCanvas} from './draw_utils'
+import {MnistData} from './mnist_data.js'
+import * as util from './mnist_utils.js'
+import {initCanvas} from './draw_utils.js'
 
 let data = new MnistData()
 $('#load-data-btn').click(async()=>{
