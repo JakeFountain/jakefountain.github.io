@@ -1,7 +1,7 @@
 // index.js
 // import 'bootstrap/dist/css/bootstrap.css'
-import * as tf from '/node_modules/@tensorflow/tfjs'
-import * as tfvis from '/node_modules/@tensorflow/tfjs-vis'
+import * as tf from '@tensorflow/tfjs'
+import * as tfvis from '@tensorflow/tfjs-vis'
 // import $ from 'jquery'
 // require('babel-polyfill')
 
