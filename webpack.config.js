@@ -13,7 +13,7 @@ const paths = {
 
 // Webpack configuration
 module.exports = {
-  entry: path.join(paths.JS, 'app.js'),
+  entry: path.join(paths.JS, 'cnnvis.js'),
   output: {
     path: paths.DIST,
     filename: 'app.bundle.js'
@@ -21,7 +21,16 @@ module.exports = {
 
   plugins:[
     new HtmlWebpackPlugin({
-        template: path.join(paths.SRC,'index.html'),
+        filename: 'CNNVis.html',
+        template: path.join(paths.SRC,'CNNVis.html'),
+    }),
+    new HtmlWebpackPlugin({
+        filename: 'MNIST.html',
+        template: path.join(paths.SRC,'MNIST.html')
+    }),
+    new HtmlWebpackPlugin({
+        filename: 'index.html',
+        template: path.join(paths.SRC,'index.html')
     }),
   ]
   // devServer:{
